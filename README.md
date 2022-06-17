@@ -75,7 +75,9 @@ docker images
 ```
 ## run
 
-- Docker 안에 pull 을 했다면 이제 run 을 해야한다.
+- Docker 안에 pull 을 했다면 이제 run 을 해야한다. container 생성 및 실행
+- 만약 쉘을 실행해야 하는 환경이라면 -it 옵션을 사용
+- -d 옵션으로 해당 컨테이너를 데몬 백그라운드단에서 실행 
 ```
 docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
 ```
